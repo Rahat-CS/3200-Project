@@ -98,7 +98,7 @@ print(classification_report(test_Y.argmax(axis=1),predict,target_names=lb.classe
 
 # plot the training loss and accuracy
 
-N = EPOCHS
+N = Epochs
 plt.style.use("ggplot")
 plt.figure()
 plt.plot(np.arange(0, N), H.history["loss"], label="train_loss")
